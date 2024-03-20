@@ -1,0 +1,121 @@
+/* Colors */
+:root {
+    --d-elysium-cl-primary: #42a5f5;
+    --d-elysium-cl-primary-hsl: 207 90% 61%;
+    --d-elysium-cl-secondary: #ba68c8;
+    --d-elysium-cl-secondary-hsl: 291 47% 60%;
+    --d-elysium-cl-info: #03a9f4;
+    --d-elysium-cl-info-hsl: 199 98% 48%;
+    --d-elysium-cl-error: #ef5350;
+    --d-elysium-cl-error-hsl: 1 83% 63%;
+    --d-elysium-cl-warning: #ff9800;
+    --d-elysium-cl-warning-hsl: 36 100% 50%;
+    --d-elysium-cl-success: #4caf50;
+    --d-elysium-cl-success-hsl: 122 39% 49%;
+
+    --d-elysium-cl-grey-50: #f9fafb;
+    --d-elysium-cl-grey-50-hsl: 210 20% 98%;
+    --d-elysium-cl-grey-100: #f3f4f6;
+    --d-elysium-cl-grey-100-hsl: 220 14% 96%;
+    --d-elysium-cl-grey-200: #e5e7eb;
+    --d-elysium-cl-grey-200-hsl: 220 13% 91%;
+    --d-elysium-cl-grey-300: #d1d5db;
+    --d-elysium-cl-grey-300-hsl: 216 12% 84%;
+    --d-elysium-cl-grey-400: #9ca3af;
+    --d-elysium-cl-grey-400-hsl: 218 11% 65%;
+    --d-elysium-cl-grey-500: #6b7280;
+    --d-elysium-cl-grey-500-hsl: 220 9% 46%;
+    --d-elysium-cl-grey-600: #4b5563;
+    --d-elysium-cl-grey-600-hsl: 215 14% 34%;
+    --d-elysium-cl-grey-700: #374151;
+    --d-elysium-cl-grey-700-hsl: 217 19% 27%;
+    --d-elysium-cl-grey-800: #1f2937;
+    --d-elysium-cl-grey-800-hsl: 215 28% 17%;
+    --d-elysium-cl-grey-900: #111827;
+    --d-elysium-cl-grey-900-hsl: 221 39% 11%;
+    --d-elysium-cl-grey-950: #030712;
+    --d-elysium-cl-grey-950-hsl: 224 71% 4%;
+
+    --d-elysium-cl-green: #7BC74D;
+    --d-elysium-cl-green-hsl: 97 52% 54%;
+    --d-elysium-cl-violet: #B8B8F3;
+    --d-elysium-cl-violet-hsl: 240 71% 84%;
+    --d-elysium-cl-red: #EE6352;
+    --d-elysium-cl-red-hsl: 7 82% 63%;
+}
+
+.dark-theme,
+html[data-theme=dark] {
+    --ls-primary-background-color: hsl(var(--d-elysium-cl-grey-800-hsl));
+    --ls-secondary-background-color: hsl(var(--d-elysium-cl-grey-600-hsl));
+    --ls-tertiary-background-color: hsl(var(--d-elysium-cl-grey-700-hsl));
+    --ls-quaternary-background-color: hsl(var(--d-elysium-cl-grey-700-hsl));
+    --ls-block-properties-background-color: hsl(var(--d-elysium-cl-grey-700-hsl)/.5);
+    --ls-block-ref-link-text-color: hsl(var(--d-elysium-cl-green-hsl)/.85);
+    --ls-border-color: hsl(var(--d-elysium-cl-grey-700-hsl));
+    --ls-guideline-color: hsl(var(--d-elysium-cl-grey-700-hsl));
+    --ls-menu-hover-color: hsl(var(--d-elysium-cl-grey-700-hsl));
+    --ls-primary-text-color: hsl(var(--d-elysium-cl-grey-200-hsl));
+    --ls-secondary-text-color: hsl(var(--d-elysium-cl-grey-400-hsl));
+    --ls-title-text-color: hsl(var(--d-elysium-cl-green-hsl)/.75);
+    --ls-link-text-color: hsl(var(--d-elysium-cl-primary-hsl));
+    --ls-link-text-hover-color: hsl(var(--d-elysium-cl-red-hsl));
+    --ls-link-ref-text-color: hsl(var(--d-elysium-cl-warning-hsl)/.85);
+    --ls-tag-text-color: hsl(var(--d-elysium-cl-green-hsl));
+    --ls-block-bullet-color: hsl(var(--d-elysium-cl-green-hsl)/.85);
+    --ls-block-bullet-border-color: hsl(var(--d-elysium-cl-grey-600-hsl));
+    --ls-block-highlight-color: hsl(var(--d-elysium-cl-grey-700-hsl)/.2);
+    --ls-selection-background-color: hsl(var(--d-elysium-cl-grey-700-hsl));
+    --ls-page-checkbox-color: hsl(var(--d-elysium-cl-grey-600-hsl));
+    --ls-page-blockquote-color: hsl(var(--d-elysium-cl-grey-300-hsl));
+    --ls-page-blockquote-bg-color: hsl(var(--d-elysium-cl-grey-600-hsl)/.5);
+    --ls-page-blockquote-border-color: hsl(var(--d-elysium-cl-grey-600-hsl)/.9);
+    --ls-page-mark-color: hsl(var(--d-elysium-cl-grey-800-hsl));
+    --ls-page-mark-bg-color: hsl(var(--d-elysium-cl-green-hsl)/.9);
+    --ls-page-inline-code-color: hsl(var(--d-elysium-cl-violet-hsl));
+    --ls-page-inline-code-bg-color: hsl(var(--d-elysium-cl-grey-900-hsl)/.55);
+    --ls-scrollbar-foreground-color: hsl(var(--d-elysium-cl-green-hsl)/.5);
+    --ls-scrollbar-background-color: hsl(var(--d-elysium-cl-grey-600-hsl));
+    --ls-scrollbar-thumb-hover-color: hsl(var(--d-elysium-cl-green-hsl)/.85);
+    --ls-icon-color: hsl(var(--d-elysium-cl-grey-200-hsl));
+    --color-level-3: hsl(var(--d-elysium-cl-grey-800-hsl)/.5);
+    --secondary:221 39% 11%;
+}
+
+blockquote {
+    border-left-color: var(--ls-page-blockquote-border-color, hsl(var(--primary)/.4));
+    border-radius: .2rem;
+}
+
+[type="checkbox"] {
+    border-radius: .2rem;
+}
+
+html[data-theme="dark"] .doing a,
+html[data-theme="dark"] .now a {
+    color: hsl(var(--d-elysium-cl-success-hsl));
+}
+
+html[data-theme="dark"] .later a {
+    color: hsl(var(--d-elysium-cl-primary-hsl));
+}
+
+html[data-theme="dark"] .waiting span {
+    color: hsl(var(--d-elysium-cl-warning-hsl));
+}
+
+html[data-theme="dark"] .canceled {
+    color: hsl(var(--d-elysium-cl-error-hsl));
+}
+
+[href="#/page/A"] {
+    color: hsl(var(--d-elysium-cl-success-hsl));
+}
+
+[href="#/page/B"] {
+    color: hsl(var(--d-elysium-cl-primary-hsl));
+}
+
+[href="#/page/C"] {
+    color: hsl(var(--d-elysium-cl-warning-hsl));
+}

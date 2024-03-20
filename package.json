@@ -1,0 +1,18 @@
+{
+  "name": "Elysium",
+  "author": "PixelTux",
+  "version": "0.0.1",
+  "description": "A sleek dark theme for both desktop and mobile.",
+  "logseq": {
+    "themes": [
+      {
+        "name": "Elysium dark theme",
+        "url": "./style.css",
+        "description": "Elysium dark theme",
+        "mode": "dark"
+      }
+    ],
+    "icon": "./elysium_logo.svg",
+    "id": "logseq-elysium"
+  }
+}
