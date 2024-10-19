@@ -2,7 +2,7 @@ name: Elysium Plugin for Logseq Release
 on:
   push:
     tags:
-      - '*'
+      - 'v*.*.*'
 
 env:
   PLUGIN_NAME: logseq-elysium
