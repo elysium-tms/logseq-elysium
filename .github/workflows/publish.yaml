@@ -21,7 +21,7 @@ jobs:
         run: |
           mkdir ${{ env.PLUGIN_NAME }}
           cp -R elysium_logo.svg LICENSE package.json README.md style.css media/ ${{ env.PLUGIN_NAME }} 
-          zip -r ${{ env.PLUGIN_NAME }}-${{ github.ref##*/ }}.zip ${{ env.PLUGIN_NAME }} 
+          zip -r ${{ env.PLUGIN_NAME }}-${{ github.ref }}.zip ${{ env.PLUGIN_NAME }} 
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
@@ -30,7 +30,7 @@ jobs:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           draft: false
           files: |
-            ${{ env.PLUGIN_NAME }}-${{ github.ref##*/}}.zip
+            ${{ env.PLUGIN_NAME }}-${{ github.ref}}.zip
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
