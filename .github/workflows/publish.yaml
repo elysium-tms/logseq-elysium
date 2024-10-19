@@ -27,7 +27,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         id: create_release
         with: 
-          draft: true
+          draft: false
           files: |
             ${{ env.PLUGIN_NAME }}-${{ github.ref_name }}.zip
 
