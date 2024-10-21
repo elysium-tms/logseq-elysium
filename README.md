@@ -1,6 +1,6 @@
   
 <h1 align="center">
-  <img src="elysium_logo.svg" alt="Icon" width="150" height="150"> 
+  <img src="./media/elysium_logo.png" width="150" alt="Elysium Logo"/><br/>
   <br>Elysium - dark theme for Logseq<br>
 </h1>
 
