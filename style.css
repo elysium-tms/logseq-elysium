@@ -124,3 +124,17 @@ html[data-theme="dark"] .canceled {
 [href="#/page/C"] {
     color: hsl(var(--d-elysium-cl-warning-hsl));
 }
+
+.cp__plugins-page .search-ctls .form-input:focus {
+    background-color:var(--d-elysium-cl-grey-800);
+}
+  
+.form-input {
+    background-color: hsl(var(--d-elysium-cl-grey-800-hsl));
+    opacity:none;
+}
+
+.form-input:focus {
+    box-shadow:0 0 0 2px hsl(var(--d-elysium-cl-green-hsl)/.40);
+    border-color: hsl(var(--d-elysium-cl-green-hsl)/.80);
+}
