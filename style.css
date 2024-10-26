@@ -46,6 +46,7 @@
 
 .dark-theme,
 html[data-theme=dark] {
+    --border: var(--d-elysium-cl-green-hsl)/.55;
     --ls-primary-background-color: hsl(var(--d-elysium-cl-grey-800-hsl));
     --ls-secondary-background-color: hsl(var(--d-elysium-cl-grey-600-hsl));
     --ls-tertiary-background-color: hsl(var(--d-elysium-cl-grey-700-hsl));
@@ -80,6 +81,10 @@ html[data-theme=dark] {
     --ls-icon-color: hsl(var(--d-elysium-cl-grey-200-hsl));
     --color-level-3: hsl(var(--d-elysium-cl-grey-800-hsl)/.5);
     --secondary:221 39% 11%;
+    --ls-create-button-color-focus: hsl(var(--d-elysium-cl-grey-950-hsl));
+    --ls-create-button-color-sm-focus: hsl(var(--d-elysium-cl-grey-950-hsl));
+    --tw-ring-color: hsl(var(--d-elysium-cl-green-hsl)/.80);
+    --lx-popover-bg: hsl(var(--d-elysium-cl-grey-950-hsl));
 }
 
 blockquote {
