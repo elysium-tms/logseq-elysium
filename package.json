@@ -1,7 +1,7 @@
 {
   "name": "Elysium",
   "author": "PixelTux",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A sleek dark theme for both desktop and mobile.",
   "logseq": {
     "themes": [
@@ -12,7 +12,7 @@
         "mode": "dark"
       }
     ],
-    "icon": "./elysium_logo.svg",
+    "icon": "./media/elysium_logo.png",
     "id": "logseq-elysium"
   }
 }
