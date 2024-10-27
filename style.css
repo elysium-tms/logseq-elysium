@@ -85,6 +85,7 @@ html[data-theme=dark] {
     --ls-create-button-color-sm-focus: hsl(var(--d-elysium-cl-grey-950-hsl));
     --tw-ring-color: hsl(var(--d-elysium-cl-green-hsl)/.80);
     --lx-popover-bg: hsl(var(--d-elysium-cl-grey-950-hsl));
+    --lx-gray-06: hsl(var(--d-elysium-cl-grey-800-hsl));
 }
 
 blockquote {
