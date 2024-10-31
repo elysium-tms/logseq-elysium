@@ -30,3 +30,4 @@ Setting up the Elysium theme in Logseq can be done in a few easy steps:
 
 I drew inspiration from [Monokai](https://github.com/tzcl/logseq-monokai) and [Rosé Pine](https://github.com/ebarruel/logseq-rose-pine-theme) while developing the Elysium theme. Much appreciation to their amazing work!
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X415I0QM)
